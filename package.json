@@ -35,7 +35,7 @@
         ],
         "category": "godocs",
         "title": "Godocs link",
-	"iconURL": "https://raw.githubusercontent.com/golang-samples/gopher-vector/master/gopher.svg",
+        "iconURL": "https://raw.githubusercontent.com/golang-samples/gopher-vector/master/gopher.svg",
         "actionItem": {
           "label": "Godocs",
           "description": "View this package on godocs.org"

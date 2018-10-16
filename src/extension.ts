@@ -22,6 +22,11 @@ function activeEditor(): sourcegraph.CodeEditor|undefined {
  */
 async function updateContext() {
   const editor = activeEditor();
+  if (!editor) {
+    console.warn(
+        'godocs updateContext called while editor was undefined. Not updating context.');
+    return;
+  }
   const uri = resolveURI(editor.document.uri);
   const context: {[key: string]: string|number|boolean|null} = {};
 
