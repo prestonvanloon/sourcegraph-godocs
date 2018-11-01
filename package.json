@@ -2,7 +2,7 @@
   "name": "sourcegraph-godocs",
   "title": "GoDocs",
   "publisher": "prestonvanloon",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/extension.js",
   "description": "Sourcegraph extension for viewing Godocs.",
   "scripts": {
