@@ -4,7 +4,7 @@
   "publisher": "prestonvanloon",
   "version": "1.0.0",
   "main": "dist/extension.js",
-  "description": "Sourcegraph extension for viewing Godocs. WORK-IN-PROGRESS: There is virtually no documentation on how to use the sourcegraph extension API.",
+  "description": "Sourcegraph extension for viewing Godocs.",
   "scripts": {
     "sourcegraph:prepublish": "parcel build src/extension.ts",
     "check": "gts check",
